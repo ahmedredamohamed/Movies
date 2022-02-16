@@ -1,4 +1,4 @@
-# README
+r# README
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
@@ -6,20 +6,12 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
-
-* System dependencies
-
-* Configuration
-
+  Rails 5.2.6.2
+  ruby 2.5.7p206
 * Database creation
-
+  rails db:migrate
 * Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
+  rails db:seed
 * Deployment instructions
-
-* ...
-Run rails db:migrate then rails db:seed then rails s then go to localhost:3000 to use the app
+  rails s then go to localhost:3000
+# Movies
