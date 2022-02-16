@@ -1,0 +1,24 @@
+<h1>Found Actors</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Movies</th>
+  </tr>
+  <% @actors.each do |actor| %>
+    <tr>
+      <td>
+        <%= actor.name %>
+      </td>
+      <td>
+        <ul>
+          <% actor.movies.each do |movie| %>
+            <li>
+              <%= movie.name %>
+            </li>
+          <% end %>
+        </ul>
+      </td>
+    </tr>
+  <% end %>
+</table>
