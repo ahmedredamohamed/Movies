@@ -22,3 +22,4 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+Run rails db:migrate then rails db:seed then rails s then go to localhost:3000 to use the app
